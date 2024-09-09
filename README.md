@@ -1,0 +1,1 @@
+AutoRPT is a tool to automatically annotate prosody using the Rapid Prosody Transcription (RPT) protocol. It currently trained on Standard American English (SAE) but this will be updated as more varieties are added.
