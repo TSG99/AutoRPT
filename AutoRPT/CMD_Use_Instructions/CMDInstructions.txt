@@ -1,0 +1,24 @@
+**The image that is also found in this folder provides an example of how to call the AutoRPT tool from the command line
+
+Steps:
+1. Navigate to the directory containing the AutoRPT folder (this may be in your Downloads unless you have since moved it)
+2. Navigate into the AutoRPT folder (My personal path is highlighted in Green in the image, yours will be different)
+3. Remember to include 'python' before calling the AutoRPT.py file (This is highlighted in Light Blue in the image)
+** All parameters are highlighted yellow in the image
+** All manually entered file paths are highlighted orange in the image
+4. Enter --textgrid and then inside either "" or '' include the path to the desired Textgrid file
+5. Enter --wav and then inside either "" or '' include the path to the desired wav file
+6. Enter --tier and then inside either "" or '' include the name of the target tier from the Textgrid file
+
+In the general folder of AutoRPT there will be Pitch and Intensity CSV's, feel free to delete these as they are no longer of use
+
+Within the csv_outputs folder there will be 3 files (per Wav/Textgrid run). These are CSV's that contain the predictions of the model
+
+Within the tg_outputs folder there will be 3 files (per Wav/Textgrid run). These are Textgrids that contain the predictions of the model
+
+
+Step by Step CMD Example
+
+C:\YourFilePath>cd AutoRPT
+C:\YourFilePath\AutoRPT>python AutoRPT.py --textgrid "YourTextgridFile.TextGrid" --wav "YourWavFile.wav" --tier "YourTierName"
+
