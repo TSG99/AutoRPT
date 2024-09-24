@@ -1,0 +1,5 @@
+praat-parselmouth==0.3.3
+textgrid==1.5
+scikit-learn==1.2.2
+pandas==2.0.3
+torch==2.0.1
